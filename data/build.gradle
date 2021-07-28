@@ -1,0 +1,14 @@
+apply from: "$rootDir/base-common.gradle"
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    //
+    androidExtensions {
+        experimental = true
+    }
+}
+
+dependencies {
+    implementation project(':repo')
+    implementation project(':utils')
+}

@@ -1,0 +1,11 @@
+rootProject.name='WeatherApp-basic'
+def projectsToInclude = [
+        // modules
+        ':app',
+        ':ui',
+        ':data',
+        ':utils',
+        ':repo'
+]
+
+include(projectsToInclude as String[])

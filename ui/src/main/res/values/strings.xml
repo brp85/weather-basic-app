@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Basic Weather App</string>
+    <string name="degree_celsius_symbol">°C</string>
+</resources>

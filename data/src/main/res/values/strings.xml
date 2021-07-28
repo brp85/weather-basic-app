@@ -1,0 +1,4 @@
+<resources>
+    <string name="humidity">Humidity: </string>
+    <string name="weather_condition">Weather Condition: </string>
+</resources>

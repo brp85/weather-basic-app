@@ -1,0 +1,5 @@
+apply from: "$rootDir/base-common.gradle"
+
+dependencies {
+    implementation project(':utils')
+}

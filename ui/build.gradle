@@ -1,0 +1,12 @@
+apply from: "$rootDir/base-common.gradle"
+apply plugin: 'kotlin-android-extensions'
+
+dependencies {
+    implementation project(':data')
+    implementation project(':utils')
+    implementation project(':repo')
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.0.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.0.0'
+}
