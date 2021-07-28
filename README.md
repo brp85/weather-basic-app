@@ -1,4 +1,4 @@
-                                                                                                         BASIC WEATHER APP
+BASIC WEATHER APP
 
 
 Description of the App :
@@ -42,6 +42,8 @@ Use Room for data persistence
 More usage of dependency injection
 Refactor to make the data source (online & offline) more seamlessly integrated with the code
 Check on handling of config changes and life cycle handling.
+Handle error cases and show proper dialog/ui
+Maintain the API URL/Key in properties 
 Add more unit test cases for all required class
 Add Logger for debugiing and (firebase) for monitoring crash or non-fatals
 Use chekstyle, Lint etc for checking code is in proper format and it has no issues
