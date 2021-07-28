@@ -39,6 +39,7 @@ Unit test case : it helps to make sure the uint of code is working as desired , 
 Improvements/Todos :
 Use RxKotlin/android etc while doing background operation and call back and observing data changes
 Use Room for data persistence
+More usage of dependency injection
 Refactor to make the data source (online & offline) more seamlessly integrated with the code
 Check on handling of config changes and life cycle handling.
 Add more unit test cases for all required class
